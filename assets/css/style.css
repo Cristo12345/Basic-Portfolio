@@ -27,3 +27,22 @@ body {
     background-color: blue;
     padding: 35px;
 }
+
+/* container class containg info and pic */
+.container {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+/* static footer class */
+.footer {
+    position: fixed;
+    padding: 25px;
+    border-top: 5px solid black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
