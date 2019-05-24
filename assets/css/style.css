@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Giving body additional height just to test static navbar */
+body {
+    min-height: 200vh;
+}
+
+/* class for static navbar at top of page */
+.navbar {
+    position:fixed;
+    padding: 35px;
+    top:0;
+    right: 0;
+    width:100%;
+    margin: 0 auto;
+    background-color: olivedrab;
+    text-align: right;
+}
+
+/* class for name tag in header */
+.name {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    background-color: blue;
+    padding: 35px;
+}
