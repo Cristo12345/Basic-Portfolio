@@ -7,6 +7,10 @@ body {
     min-height: 200vh;
 }
 
+p {
+    margin-left: 50px;
+}
+
 /* class for static navbar at top of page */
 .navbar {
     position:fixed;
@@ -30,8 +34,11 @@ body {
 
 /* container class containg info and pic */
 .container {
-    padding: 20px;
-    padding-bottom: 50px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 10px 5px;
+    background-color: chocolate;
+    color: white;
 }
 
 /* static footer class */
