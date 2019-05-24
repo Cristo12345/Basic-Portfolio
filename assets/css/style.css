@@ -7,9 +7,9 @@ body {
     min-height: 200vh;
 }
 
-p {
-    margin-left: 50px;
-}
+/* p {
+    margin-left: ;
+} */
 
 /* class for static navbar at top of page */
 .navbar {
@@ -52,4 +52,19 @@ p {
     background-color: red;
     color: white;
     text-align: center;
+  }
+
+  /* Placeholder image */
+  .placeholder-image {
+      position:relative;
+      height:180px;
+      width: 30%;
+  }
+
+  /* class for placeholder text on portfolio */
+  .placeholder-text {
+      position: absolute;
+      bottom: 20%;
+      text-align: center;
+      color:white;
   }
