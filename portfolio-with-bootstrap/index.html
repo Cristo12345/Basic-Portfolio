@@ -1,6 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <title>My Portfolio w/ Bootstrap</title>
-    <
+
+    <!-- Using Bootstrap CDN for CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!-- Fixed navbar from Bootstrap -->
+    <!-- Having trouble with this part! This navbar works when i use an different version of bootstrap but not with the current link.  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Christian Suleiman</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-4">
+                <img class="img-responsive" src="../assets/images/SeoulSelfieSmall.jpg" width="100%" height="100%" alt="self-portrait">
+            </div>
+            <div class="col col-md-8">
+                <p>My name is Christian Suleiman. I am currently and undergraduate student at the City College of New
+                    York. I am
+                    rising senior pursuing a Bachelor's of Science degree in the field of Computer Science. I am
+                    currently
+                    focusing on web development in hopes of entering the field upon graduation.</p>
+                <p>Although my current focus is web development, I also have experience in object-orientated programming
+                    and
+                    algorithms. I have professional internship experience in broadcast engineering having interned at
+                    NBC Sports
+                    headquarters between 2017 and 2018. </p>
+
+                <p>Born and raised in New York, I am seeking to advance my career in the Greater NYC area. My interests
+                    include
+                    graphic design, UX design, sports media, and traveling.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer mt-auto py-3">
+        <div container>
+            <span class="text-muted" style="position:fixed; bottom:0%; text-align: center">Copyright &#169; Christian
+                Suleiman, 2019</span>
+        </div>
+    </div>
+
+
+</body>
+
 </html>
